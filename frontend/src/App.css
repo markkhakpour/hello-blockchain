@@ -30,6 +30,9 @@ body {
 /* ===== App Container ===== */
 .app {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: 
     radial-gradient(ellipse at top, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
     radial-gradient(ellipse at bottom right, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
@@ -37,12 +40,14 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 /* ===== Header ===== */
