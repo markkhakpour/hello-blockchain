@@ -1,0 +1,25 @@
+# Dependencies
+node_modules
+
+# Hardhat files
+cache
+artifacts
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Environment variables (NEVER commit this!)
+.env
+
+# IDE
+.idea
+.vscode
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
