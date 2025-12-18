@@ -343,6 +343,15 @@ body {
   font-size: 0.8rem;
 }
 
+.footer .author {
+  margin-top: 1rem;
+  font-weight: 500;
+  background: linear-gradient(135deg, var(--accent), #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 640px) {
   .container {

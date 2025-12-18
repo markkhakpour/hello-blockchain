@@ -204,6 +204,7 @@ function App() {
             Contract: <code>{shortenAddress(CONTRACT_ADDRESS)}</code>
           </p>
           <p>Built on MarkChain (Tenderly Virtual TestNet)</p>
+          <p className="author">by Mark Khakpour</p>
         </footer>
       </div>
     </div>
